@@ -1,0 +1,110 @@
+:root{
+    --Paleblue: hsl(225, 100%, 94%);
+    --Bright-blue: hsl(245, 75%, 52%);
+    --Very-paleblue: hsl(225, 100%, 98%);
+    --Desaturated-blue: hsl(224, 23%, 55%);
+    --Dark-blue: hsl(223, 47%, 23%);
+}
+
+body{
+    background-color: var(--Paleblue);
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+#container{
+    display: block;
+    position:absolute;
+    left: 31%;
+    top: 12%;
+    bottom: 20%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    text-align: center;
+    
+}
+#mainpic{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#maintext{
+    position: absolute;
+    left: 28%;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    top: 37%;
+
+}
+
+#subtext{
+    position: absolute;
+    top: 48%;
+    left: 18%;
+    text-align: center;
+    width: 70%;
+    font-size: 17px;
+    color: var(--Desaturated-blue);
+}
+#secpic{
+    position: absolute;
+    top: 420px;
+    left: 70px;
+    
+}
+
+#plantext{
+    position: absolute;
+    top: 405px;
+    left: 145px;
+    font-size: 17px;
+    font-weight: bold;
+}
+#lasttext{
+    position: absolute;
+    top: 430px;
+    left: 145px;
+    font-size: 17px;
+    color: var(--Desaturated-blue);
+}
+
+#change button{
+    position: absolute;
+    top: 430px;
+    left: 330px;
+    font-size: 15px;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: var(--Desaturated-blue);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#submit{
+    position: absolute;
+    bottom: 55px;
+    left: 62px;
+    width: 350px;
+    height: 45px;
+    background-color: var(--Bright-blue);
+    color: white;
+    font-weight: bolder;
+    font-size: 14px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#cancel{
+    position: absolute;
+    bottom: 10px;
+    left: 42.5%;
+    text-decoration: none;
+    color: var(--Desaturated-blue);
+
+}
